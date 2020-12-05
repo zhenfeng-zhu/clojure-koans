@@ -4,7 +4,7 @@
 ; Please see https://calva.io/output/ for more info.
 ; Happy coding! ♥️
 
-; Jacking in...
+; Connecting ...
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS: 
@@ -18,50 +18,3 @@ clj::koan-engine.runner=>
 
 ; Jack-in done.
 clj::koan-engine.runner=> 
-; Syntax error compiling at (project.clj:1:1).
-; Unable to resolve symbol: defproject in this context
-clojure.lang.Compiler/analyze (Compiler.java:6808)
-clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/eval (Compiler.java:7180)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:414)
-clojure.main/repl (main.clj:435)
-clojure.main/repl (main.clj:345)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (Thread.java:832)
-clj::user=> 
-; Syntax error compiling at (project.clj:1:1).
-; Unable to resolve symbol: defproject in this context
-clojure.lang.Compiler/analyze (Compiler.java:6808)
-clojure.lang.Compiler$InvokeExpr/parse (Compiler.java:3820)
-clojure.lang.Compiler/analyzeSeq (Compiler.java:7108)
-clojure.lang.Compiler/analyze (Compiler.java:6789)
-clojure.lang.Compiler/eval (Compiler.java:7180)
-clojure.core/eval (core.clj:3214)
-clojure.core/eval (core.clj:3210)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.core/apply (core.clj:665)
-clojure.core/with-bindings* (core.clj:1973)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
-clojure.main/repl (main.clj:414)
-clojure.main/repl (main.clj:435)
-clojure.main/repl (main.clj:345)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
-nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
-nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
-nrepl.middleware.session/session-exec (session.clj:202)
-nrepl.middleware.session/session-exec (session.clj:201)
-java.lang.Thread/run (Thread.java:832)
-clj::user=> 
-; nREPL Connection was closed
